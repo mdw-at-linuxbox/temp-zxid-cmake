@@ -26,6 +26,10 @@ zxidsimp.c zxidslo.c zxidspx.c zxidsso.c zxiduser.c zxidwsc.c zxidwsf.c
 zxidwsp.c zxlib.c zxlibdec.c zxlibenc.c zxlog.c zxns.c zxpw.c zxsig.c
 zxutil.c)
 
+set(zxid_public_headers c/zxidvers.h c/zx-data.h zxidconf.h zxidpriv.h
+errmac.h zxidutil.h platform.h zxid.h zxidnoswig.h zx.h)
+
+
 add_library(zxid STATIC ${zxid_srcs})
 set_property(TARGET zxid
     APPEND PROPERTY COMPILE_DEFINITIONS
@@ -58,3 +62,4 @@ if(THREADS_HAVE_PTHREAD_ARG)
 endif(THREADS_HAVE_PTHREAD_ARG)
 
 install(TARGETS zxid DESTINATION ${CMAKE_INSTALL_LIBDIR})
+install(FILES ${zxid_public_headers} DESTINATION include/rx)
