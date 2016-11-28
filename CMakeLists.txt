@@ -62,4 +62,4 @@ if(THREADS_HAVE_PTHREAD_ARG)
 endif(THREADS_HAVE_PTHREAD_ARG)
 
 install(TARGETS zxid DESTINATION ${CMAKE_INSTALL_LIBDIR})
-install(FILES ${zxid_public_headers} DESTINATION include/rx)
+install(FILES ${zxid_public_headers} DESTINATION include/zx)
