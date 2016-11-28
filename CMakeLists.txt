@@ -18,6 +18,7 @@ c/zx-sp11-dec.c c/zx-subs-dec.c c/zx-tas3-dec.c c/zx-tas3sol-dec.c
 c/zx-wsc-dec.c c/zx-wsp-dec.c c/zx-wsse-dec.c c/zx-wst-dec.c
 c/zx-wsu-dec.c c/zx-xa-dec.c c/zx-xac-dec.c c/zx-xasa-dec.c
 c/zx-xasacd1-dec.c c/zx-xasp-dec.c c/zx-xaspcd1-dec.c c/zx-xenc-dec.c
+c/zx-xml-dec.c
 match.c ykaes.c ykcrc.c zxcrypto.c zxidcdc.c zxidcgi.c zxidconf.c
 zxidcurl.c zxiddec.c zxiddi.c zxidecp.c zxidepr.c zxididpx.c zxidim.c
 zxidlib.c zxidloc.c zxidmda.c zxidmeta.c zxidmk.c zxidmkwsf.c zxidmni.c
